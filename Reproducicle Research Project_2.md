@@ -1,12 +1,19 @@
 ---
-title: "Exploring impact of various events w.r.t economy and human health in United States using U.S.(NOAA) storm database"
+title: Exploring impact of various events w.r.t economy and human health in United
+  States using U.S.(NOAA) storm database
 author: "Doris Muriungi"
 date: "12/13/2020"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+```
+```{r global_options}
+knitr::opts_chunk$set(fig.path='Figs/')
+```
 ```
 
 
